@@ -1,0 +1,56 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 40px;
+}
+
+a {
+  color: #00B7FF;
+}
+.menu{
+  width: 100%;
+  background-color: #333333;
+  position: absolute;
+  height: 90px;
+  margin-bottom: 10px;
+  margin-left: -50px;
+  margin-top: -50px;
+}
+.real{
+  color: white;
+  font-size: 30px;
+  margin-left: 15px;
+}
+p{
+  font-size: 15px;
+}
+.form-group{
+  color: #999999;
+  font-size: 25px;
+  padding: 8px;
+  margin-top: 40px !important;
+}
+.real{
+  color: white !important;
+}
+
+.navi{
+  margin-right: 180px;
+  float: right;
+  margin-top: -10px;
+  font-size: 15px;
+}
+
+.navi2{
+  margin-right: 10px;
+  float: right;
+  margin-top: -10px;
+  font-size: 15px;
+}
+.listing{
+  display: inline-flex !important;
+  list-style-type: none;
+}
+
+.hello{
+  margin-left: 20px;
+}

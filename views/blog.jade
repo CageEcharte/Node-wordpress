@@ -1,0 +1,10 @@
+extends ./layout
+
+block content
+ h3 The routing and backend code is utilizing  Node.js.
+ h3 The images and text below are blog posts from the Wordpress API. VVVV <br /> <br />
+ ul.listing
+  - for(var i = 3; i < content.length; i++) {
+      li.hello
+       span !{content[i].rendered}
+  -}

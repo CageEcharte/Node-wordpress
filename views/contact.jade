@@ -1,0 +1,15 @@
+
+extends ./layout
+
+block content
+ form(method='POST' action='/register')
+  div.form-group
+    label(for='name')(style=) Name:
+    input#name.form-control(type='text', placeholder='first' name='name')
+    input#name.form-control(type='text', placeholder='last' name='name')
+  div.form-group
+    label(for='name') phone number:
+    input#name.form-control(type='text', placeholder='***-***-****' name='name')
+  div.form-group
+    label(for='email') Email:
+    input#email.form-control(type='email', placeholder='name@email.com' name='email')
